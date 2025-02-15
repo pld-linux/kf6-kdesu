@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeframever	6.10
+%define		kdeframever	6.11
 %define		qtver		5.15.2
 %define		kfname		kdesu
 
 Summary:	User interface for running shell commands with root privileges
 Name:		kf6-%{kfname}
-Version:	6.10.0
+Version:	6.11.0
 Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	28e9d2bf48dcdefb4d6990cb0847f7ca
+# Source0-md5:	6de72206275db095889d5ef02ecfeaae
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6DBus-devel >= %{qtver}
