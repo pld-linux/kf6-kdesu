@@ -44,6 +44,11 @@ KDESU provides functionality for building GUI front ends for (password
 asking) console mode programs. For example, kdesu and kdessh use it to
 interface with su and ssh respectively.
 
+%description -l pl.UTF-8
+KDESU udostępnia możliwość budowania frontendów GUI (pytania o hasło)
+dla programów konsolowych. Np. kdesu i kdessh używają go jako
+interfejsu do su i ssh odpowiednio.
+
 %package devel
 Summary:	Header files for %{kfname} development
 Summary(pl.UTF-8):	Pliki nagłówkowe dla programistów używających %{kfname}
